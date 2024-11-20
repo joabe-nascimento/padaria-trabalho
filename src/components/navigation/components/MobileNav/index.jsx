@@ -3,11 +3,9 @@ import { MobileNavItem } from "../MobileSubNav";
 
 const NAV_ITEMS = [
   { label: "Inicio", href: "/" },
-  { label: "Propósitos", href: "/quemsomos" },
-  { label: "Serviços", href: "/serviços" },
-  { label: "Ações", href: "/ações" },
+  { label: "Produtos", href: "/produtos" },
+  { label: "História", href: "/historia" },
   { label: "Contatos", href: "/contact" },
-  { label: "Horarios", href: "/horarios" },
 ];
 
 export const MobileNav = ({ onToggle }) => {
